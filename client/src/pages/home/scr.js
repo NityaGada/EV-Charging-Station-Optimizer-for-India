@@ -52,7 +52,7 @@ export default function Home() {
           'X-RapidAPI-Host': 'ev-charge-finder.p.rapidapi.com'
         };
 
-        const apiKey = '9b15606a-fcb3-4ec8-86c7-1b3fba02234b';
+        const apiKey = '';
         try {
             const response = await axios.get('https://api.openchargemap.io/v3/poi', {
                 params: {
@@ -74,7 +74,7 @@ export default function Home() {
             const response = await axios.get('https://maps.googleapis.com/maps/api/geocode/json', {
                 params: {
                     address: source,
-                    key: 'AIzaSyAgbrTDExWIfCTPLYBAa9EiIlIp6tcCBI0',
+                    key: '',
                 },
             });
             console.log(response.data);

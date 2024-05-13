@@ -40,7 +40,7 @@ export default function Home() {
 
     //opencharge api
     const fetchChargingStations = async () => {
-        const apiKey = '9b15606a-fcb3-4ec8-86c7-1b3fba02234b'; // Replace with your actual API key
+        const apiKey = ''; // Replace with your actual API key
         try {
           const response = await axios.get('https://api.openchargemap.io/v3/poi', {
             params: {
